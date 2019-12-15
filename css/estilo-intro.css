@@ -1,0 +1,275 @@
+/*Configurações gerais das páginas de introdução */
+body{
+background: #232943;
+font-family: 'Open Sans Condensed', sans-serif;
+margin: 0;
+padding: 0;
+color: #171717;
+}
+
+#logo{
+text-align: center;
+margin-top: 15px; 
+}
+
+
+nav ul, footer ul{
+list-style: none;
+padding: 0;
+margin: 0;
+
+}
+
+nav li, footer li{
+display: inline;
+}
+
+nav a, footer a {
+text-decoration: none;
+color: #FFFFFF;
+width: 15%;
+display: inline-block;
+line-height: 30px;    
+text-align: center; 
+font-size: 25px;
+
+}
+
+/*nav a:hover, footer a:hover{
+background: rgba(244, 246, 248, 0.16);
+color: #fcfcfc;
+}*/
+
+hr{
+margin-top: 25px;
+}
+
+.cadastroconfig{
+color: #FFFFFF; /*AJUSTAR O NAV DAS PÁGINAS!!*/
+border: 1px solid #FFF;
+border-radius: 10px;
+padding: 2px;
+margin: 2px auto;
+float: right;
+margin-top: 35px;
+}
+
+
+footer{
+font-size: 10px;
+text-align: center;
+clear: both;
+color: #ffffff;
+}
+
+.footer2{
+font-weight: 300;
+font-size: 18px;
+}
+
+
+/*Configurações dos botões e links*/
+
+
+/*GERAL*/
+
+/*TROCAR AS FONTES DOS BOTÕES E INTRODUÇÃO*/
+#botao-html a, #botao-css a, #botao-js a, #botao-php a{
+text-decoration: none;
+color: black;
+font-weight: 800;
+font-size: 25px; 
+border-radius: 200px;
+padding: 15px 35px 15px 35px;
+font-family: 'Rubik', sans-serif;
+font-weight: 300;
+
+
+}
+#botao-html, #botao-css, #botao-js, #botao-php{
+margin-top: 60px;
+
+}
+
+
+/*APENAS HTML*/
+#botao-html a{
+background-color: #232b34;
+border: 1px solid #232b34;
+}
+#botao-html a:hover{
+box-shadow: #2f3949;
+color: white;
+
+}
+
+
+/*APENAS CSS*/
+
+#botao-css a{
+background-color: #3c8b81;
+border: 1px solid #3c8b81;
+}
+#botao-css a:hover{
+box-shadow: #44a9a0;
+color: white;
+}
+
+
+/*APENAS JS*/
+
+#botao-js a{
+background-color: #83a232;
+border: 1px solid #83a232;
+}
+#botao-js a:hover{
+box-shadow: #92bf37;
+color: white;
+}
+
+
+/*APENAS PHP*/
+
+#botao-php a{
+background-color: #cf5155;
+border: 1px solid #cf5155;
+}
+#botao-php a:hover{
+box-shadow: #ac4c4f;
+color: white;
+}
+
+
+
+
+
+/*Configurações dos conteúdos das páginas de introdução*/
+
+/*Classes de todas as páginas*/
+/*esta classe principal é do html, mudar pra id do html*/
+
+.titulo-intro{
+font-size: 50px;
+color: white;   /*Subir mais o titulo e o sub-intro*/
+margin: 15px;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+margin-top: -40px;
+
+
+}
+
+.sub-intro{
+font-size:25px;
+color: white;
+margin: 15px;    
+text-align: center;
+font-family: 'Nunito', sans-serif;
+
+
+}
+
+.subprincipal{
+font-size: 17px;
+font-weight: 400;
+margin: 15px 25px;
+margin-top: 50px;
+font-family: 'Open Sans', sans-serif;
+}
+
+p{
+font-weight: 100;
+}
+
+
+/*classes (mudar para id) específicas das páginas*/
+
+#principal-html{
+background-color: #2f3949;    
+/*box-shadow: 25px 15px 10px 10px #232b34;
+border-bottom-left-radius: 200px;*/
+margin-top: 0;
+width: 100%;
+height: 350px;
+text-align: center;
+padding-top: 175px;
+
+}
+
+#principal-css{
+background-color: #44a9a0; /*cor botão: #3c8b81*/
+/*box-shadow: 25px 15px 10px 10px #3c8b81;
+border-bottom-left-radius: 200px;*/
+margin-top: 0;
+width: 100%;
+height: 350px;
+text-align: center;
+padding-top: 175px;
+
+}
+#principal-js{
+background-color: #92bf37;
+/*box-shadow: 25px 15px 10px 10px #83a232;
+border-bottom-left-radius: 200px;*/
+margin-top: 0;
+width: 100%;
+height: 350px;
+text-align: center;
+padding-top: 175px;
+
+}
+#principal-php{
+background-color: #ac4c4f;
+/*box-shadow: 25px 15px 10px 10px #cf5155;
+border-bottom-left-radius: 200px;*/
+margin-top: 0;
+width: 100%;
+height: 350px;
+text-align: center;
+padding-top: 175px;
+
+
+}
+
+
+section, main{
+background-color: white;
+}
+
+.referencias-intro a{
+text-decoration:none;
+
+}
+
+
+
+@media only screen and (max-width:890px){    
+
+nav {
+text-align: center;
+}
+
+nav li, footer li{
+display: block;
+justify-content: center;
+
+}
+
+.cadastroconfig{
+
+padding: 12px 25%;
+float: none;
+}
+
+.navconfig{
+display: none;
+}
+
+#logo{
+text-align: center;
+}
+
+
+}
+
+

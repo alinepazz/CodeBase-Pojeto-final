@@ -1,0 +1,225 @@
+body { 
+
+background-image: url("../imagens/codeprincipal.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+color:blanchedalmond;
+font-family: 'Open Sans Condensed', sans-serif;
+margin: 0;
+padding: 0;
+color: #fff;
+}
+
+
+fieldset{
+width: 100%;
+height: 580px;
+color:white;
+border-radius: 5px;
+border-color: rgba(255, 255, 255, 0.65);
+background-color: rgba(16, 16, 18, 0.69);
+font-size: 18px;
+
+}
+
+.cadastro-h2{
+font-weight: 100;
+}
+
+.cadastroconfig{
+display: none;
+}
+
+.footerconfig{
+text-align: center;
+font-size: 18px;
+}
+
+footer{
+font-size: 9px;
+text-align: center;
+clear: both;   
+}
+
+.inputconfig{
+border-radius: 5px;
+}
+
+form{
+max-width: 500px;
+margin: auto;
+
+
+}
+
+#enviar{
+border-radius: 4px; 
+border-color: rgba(79, 83, 90, 0.51);
+background-color: transparent;
+color: white;
+padding: 10px 10px;
+
+}
+
+#enviar:hover{
+background: rgba(116, 118, 121, 0.29);
+
+}
+
+#enviar, #termos, .cadastro-h2, button{
+text-align: center;
+}
+
+#hr-form{
+width: 90%;
+}
+
+input, label{
+width: 100%;
+padding: 7px 1px;
+
+}
+input{
+background-color: transparent;
+color: white;
+}
+
+#enviar{
+margin-left: 170px;
+}
+
+/*PÁGINA DE LOGIN*/
+
+.link-config{
+color: white;
+font-size: 15px;
+}
+
+#entrar-h2{
+font-size: 20px;
+font-weight: 200;
+text-align: center;
+}
+
+#entrar-p{
+text-align: center;
+font-size: 17px;
+}  
+
+
+/*DEMAIS CONFIGURAÇÕES*/
+
+
+#logo,{
+text-align: center; 
+width: 80%;   
+
+
+}
+
+
+
+nav ul, footer ul{
+list-style: none;
+padding: 0;
+margin: 0;
+
+}
+
+nav li, footer li{
+display: inline;
+
+}
+
+nav a, footer a {
+text-decoration: none;
+color: #FFFFFF;
+width: 15%;
+display: inline-block;
+line-height: 30px;
+text-align: center; 
+font-size: 25px;
+
+}
+
+.botao-p a:hover{
+background: rgba(255, 255, 255, 0.17);
+color: #fcfcfc;
+}
+
+
+hr{
+margin-top: 25px;
+
+
+}
+
+
+
+.footerconfig{
+text-align: center;
+
+}
+
+.botao-p a{
+text-decoration: none;
+color: #FFFFFF;
+border: 1px solid rgb(60, 69, 109);
+border-radius: 200px;
+padding: 15px;
+font-family: 'Rubik', sans-serif;
+font-weight: 100;
+font-size: 15px;
+
+}
+
+
+.cadastroconfig{
+color: #FFFFFF;
+border: 1px solid #FFF;
+border-radius: 10px;
+padding: 2px;
+margin: 2px auto;
+float: right;
+margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:890px){    
+
+nav {
+text-align: center;
+}
+
+nav li, footer li{
+display: block;
+justify-content: center;
+
+}
+
+.cadastroconfig{
+/* margin-bottom: ; */
+padding: 2px 25%;
+float: none;
+
+}
+
+.navconfig{
+display: none;
+}
+
+
+
+}
+
+
+
+
+
+
